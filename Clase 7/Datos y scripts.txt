@@ -1,0 +1,46 @@
+### README:
+
+# Proyecto: Limpieza y Transformación de Datos con Python
+
+Este proyecto tiene como objetivo desarrollar un script en Python para la limpieza y transformación de un conjunto de datos. Utilizando bibliotecas como `pandas`, el equipo llevará a cabo las siguientes tareas:
+
+- **Limpieza de Datos**: Eliminar datos duplicados, manejar valores nulos y corregir errores en los registros.
+- **Transformación de Datos**: Normalizar y estandarizar columnas, crear nuevas variables derivadas de los datos originales.
+- **Visualización Básica**: Generar gráficos para visualizar los datos transformados, facilitando la interpretación y análisis.
+
+El proyecto sigue una metodología de trabajo colaborativa con el uso de Git, donde cada miembro del equipo es responsable de una fase del proceso. Al finalizar, los datos estarán listos para ser analizados o utilizados en modelos predictivos.
+
+---
+
+### Data.txt
+
+ID, Nombre, Edad, Ingreso
+1, Juan, 29, 45000
+2, Maria, , 54000
+3, Carlos, 35, 
+4, Ana, 28, 62000
+
+---
+
+### Data_analysis.txt
+
+import pandas as pd
+
+def limpiar_datos():
+    # Leer el archivo CSV
+    df = pd.read_csv('data.csv')
+    # Eliminar filas con valores nulos
+    df_clean = df.dropna()
+    return df_clean
+
+---
+
+### graphics.txt
+
+import matplotlib.pyplot as plt
+
+def visualizar_datos(df_clean):
+    df_clean.plot(kind='bar', x='Nombre', y='Ingreso')
+    plt.show()
+---
+

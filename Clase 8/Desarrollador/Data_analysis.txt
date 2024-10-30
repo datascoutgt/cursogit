@@ -1,0 +1,21 @@
+### Data_analysis.txt
+
+import pandas as pd
+
+def limpiar_datos():
+    # Leer el archivo CSV
+    df = pd.read_csv('data.csv')
+    # Eliminar filas con valores nulos
+    df_clean = df.dropna()
+    return df_clean
+
+---
+
+### graphics.txt
+
+import matplotlib.pyplot as plt
+
+def visualizar_datos(df_clean):
+    df_clean.plot(kind='bar', x='Nombre', y='Ingreso')
+    plt.show()
+---

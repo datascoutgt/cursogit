@@ -1,0 +1,24 @@
+-- Crear una tabla de ejemplo
+CREATE TABLE Employees (
+    EmployeeID INT,
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    Salary DECIMAL(10, 2)
+);
+
+-- Insertar datos de ejemplo
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Salary)
+VALUES (1, 'John', 'Doe', 50000),
+       (2, 'Jane', 'Smith', 60000),
+       (3, 'Sam', 'Brown', 55000);
+
+-- Proceso de Pipeline
+-- Paso 1: Filtrar empleados con salario mayor a 55000
+WITH HighEarners AS (
+    SELECT * FROM Employees
+    WHERE Salary > 55000
+)
+
+-- Paso 2: Calcular el salario promedio de los empleados filtrados
+SELECT AVG(Salary) AS AverageSalary
+FROM HighEarners;
