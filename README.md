@@ -1,14 +1,14 @@
-# Curso de Git y Azure DevOps
+# Curso de Git y GitHub
 
-Bienvenido al curso de Git y Azure DevOps ofrecido por **DataScout**, tu academia en línea para desarrollar habilidades de tecnología y programación. En este curso, aprenderás los conceptos fundamentales y avanzados para manejar el control de versiones y colaborar en proyectos de software utilizando Git y Azure DevOps.
+Bienvenido al curso de Git y GitHub ofrecido por **DataScout**, tu academia en línea para desarrollar habilidades de tecnología y programación. En este curso, aprenderás los conceptos fundamentales y avanzados para manejar el control de versiones y colaborar en proyectos de software utilizando Git y GitHub.
 
 ---
 
 ## Tabla de Contenidos del Curso de Git
 
-### Clase 1: Introducción a Git y Azure DevOps
+### Clase 1: Introducción a Git y GitHub
 - **Importancia de Git**: Problemas comunes al no usar Git en el desarrollo.
-- **Comparativa**: Diferencias clave entre Git y Azure DevOps.
+- **Comparativa**: Diferencias clave entre Git y GitHub.
 - **Instalación de Git**: Guía paso a paso.
 - **Configuración Inicial**: Personalización de Git (nombre de usuario, correo electrónico, editor por defecto).
 - **Clonación de Repositorios**: Cómo clonar un repositorio en tu entorno local.
@@ -25,12 +25,12 @@ Bienvenido al curso de Git y Azure DevOps ofrecido por **DataScout**, tu academi
 - **Desarrollo en Ramas Secundarias**: Commit y push de cambios en ramas.
 - **Fusión de Ramas**: Procesos de merge y resolución de conflictos.
 - **Limpieza de Ramas**: Prácticas seguras para eliminar ramas innecesarias.
-- **Ejercicio Práctico**: Trabajo con ramas en un repositorio de Azure DevOps.
+- **Ejercicio Práctico**: Trabajo con ramas en un repositorio de GitHub.
 
 ### Clase 4: Colaboración en Git y Repositorios Remotos
 - **Gestión de Repositorios Remotos**: Clonación, fetch, pull, y push.
 - **Trabajo en Equipo**: Manejo de permisos y colaboración en proyectos compartidos.
-- **Integración con Azure Repos**: Configuración y gestión de repositorios remotos en Azure DevOps.
+- **Integración con Azure Repos**: Configuración y gestión de repositorios remotos en GitHub.
 - **Ejercicio Práctico**: Colaboración en repositorios remotos con un compañero.
 
 ### Clase 5: Gestión Avanzada de Cambios en Git
@@ -75,4 +75,4 @@ Bienvenido al curso de Git y Azure DevOps ofrecido por **DataScout**, tu academi
 
 ---
 
-Esperamos que disfrutes este curso de Git y Azure DevOps y que adquieras las habilidades necesarias para mejorar tu productividad y eficiencia en el desarrollo de software. ¡Empecemos a aprender con DataScout!
+Esperamos que disfrutes este curso de Git y GitHub y que adquieras las habilidades necesarias para mejorar tu productividad y eficiencia en el desarrollo de software. ¡Empecemos a aprender con DataScout!
