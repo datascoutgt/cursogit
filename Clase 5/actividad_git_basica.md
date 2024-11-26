@@ -65,8 +65,6 @@ Modifica el archivo nuevamente, escribiendo el nombre de otro alumno de forma in
 
     Esto creará un nuevo commit que deshace los cambios del commit anterior.
 
----
-
 # 8. Hacer un push
 Realiza un push para subir los cambios a el repositorio.
 

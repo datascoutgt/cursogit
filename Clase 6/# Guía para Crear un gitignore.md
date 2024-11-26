@@ -1,4 +1,4 @@
-# Guía para Crear un Archivo .gitignore
+    # Guía para Crear un Archivo .gitignore
 
 ## Introducción
 El archivo `.gitignore` permite a Git ignorar ciertos archivos o directorios que no deseas incluir en tu repositorio, como archivos de configuración locales, archivos generados automáticamente, o archivos temporales.
