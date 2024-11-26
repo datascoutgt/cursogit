@@ -30,7 +30,7 @@ Bienvenido al curso de Git y GitHub ofrecido por **DataScout**, tu academia en l
 ### Clase 4: Colaboración en Git y Repositorios Remotos
 - **Gestión de Repositorios Remotos**: Clonación, fetch, pull, y push.
 - **Trabajo en Equipo**: Manejo de permisos y colaboración en proyectos compartidos.
-- **Integración con Azure Repos**: Configuración y gestión de repositorios remotos en GitHub.
+- **Integración con GitHub**: Configuración y gestión de repositorios remotos en GitHub.
 - **Ejercicio Práctico**: Colaboración en repositorios remotos con un compañero.
 
 ### Clase 5: Gestión Avanzada de Cambios en Git
