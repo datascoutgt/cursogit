@@ -35,7 +35,7 @@ git commit -m "Nombre de commit"
 git checkout master
 git merge Rama2
 
-=======
+
 # 10. Subir las modificaciones
 git push
 

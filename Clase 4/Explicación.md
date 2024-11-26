@@ -88,4 +88,4 @@ git add rfc_dashboard_rhh.md
    git push origin master
    ```
  
-Esta estructura no solo permitirá que cada participante aprenda a colaborar en la creación de un RFC, sino que también les dará experiencia práctica en el uso de Git y Azure DevOps en un entorno de equipo. ¡Buena suerte con el proyecto!
+Esta estructura no solo permitirá que cada participante aprenda a colaborar en la creación de un RFC, sino que también les dará experiencia práctica en el uso de Git y GitHub en un entorno de equipo. ¡Buena suerte con el proyecto!
