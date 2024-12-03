@@ -161,5 +161,3 @@ master ────────●──────────●────�
                  \        / \           /
               feature1  hotfix1      featureA
 ```
-
-Con esta combinación de teoría y ejercicios, tus estudiantes podrán dominar el trabajo con ramas en Git y aprenderán a manejar situaciones comunes en entornos reales. 😊
