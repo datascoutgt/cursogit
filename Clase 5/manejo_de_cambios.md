@@ -56,16 +56,16 @@ git revert HEAD
 ---
 
 ## Creación de un Archivo para la Actividad
-Antes de comenzar la actividad, crea un archivo llamado `toma de asistencia.md` y escribe tu nombre de manera intencionalmente incorrecta:
+Antes de comenzar la actividad, crea un archivo llamado `README.md` y escribe tu nombre de manera intencionalmente incorrecta:
 
 ```bash
-echo "Nombre erroneo" > toma\ de\ asistencia.md
+echo "Nombre erroneo" > README.md
 ```
 
 Confirma el archivo:
 ```bash
-git add toma\ de\ asistencia.md
-git commit -m "Agrega archivo con nombre mal escrito"
+git add README.md
+git commit -m "Agrega README con nombre mal escrito"
 ```
 
 ---
@@ -91,10 +91,10 @@ git checkout -b nombre-de-tu-rama
 ---
 
 ### 3. Realizar un Cambio
-Edita cualquier archivo del proyecto (por ejemplo, `toma de asistencia.md`) y escribe tu nombre, pero introduce un error intencionalmente.
+Edita el archivo `README.md` y escribe tu nombre, pero introduce un error intencionalmente.
 
 ```bash
-echo "Nombre erroneo" > toma\ de\ asistencia.md
+echo "Nombre erroneo" > README.md
 ```
 
 Guarda el archivo y verifica los cambios:
@@ -109,7 +109,7 @@ git status
 Si deseas **descartar los cambios no guardados** en el archivo antes de agregarlo al staging area, utiliza `git restore`.
 
 ```bash
-git restore toma\ de\ asistencia.md
+git restore README.md
 ```
 Esto restaurará el archivo a su estado original antes de ser modificado.
 
@@ -119,7 +119,7 @@ Esto restaurará el archivo a su estado original antes de ser modificado.
 Si decides conservar el cambio, agrégalo al staging area y confirma el commit:
 
 ```bash
-git add toma\ de\ asistencia.md
+git add README.md
 git commit -m "Corrige nombre mal escrito"
 ```
 
@@ -136,12 +136,12 @@ Esto deshace el commit pero deja el archivo modificado en el staging area.
 
 Corrige el archivo:
 ```bash
-echo "Nombre correcto" > toma\ de\ asistencia.md
+echo "Nombre correcto" > README.md
 ```
 
 Realiza un nuevo commit con los cambios corregidos:
 ```bash
-git add toma\ de\ asistencia.md
+git add README.md
 git commit -m "Nombre corregido"
 ```
 
@@ -177,8 +177,8 @@ Para revertir un commit específico (por ejemplo, si escribiste el nombre de otr
 
 1. Modifica el archivo y realiza un commit:
 ```bash
-echo "Nombre equivocado" > toma\ de\ asistencia.md
-git add toma\ de\ asistencia.md
+echo "Nombre equivocado" > README.md
+git add README.md
 git commit -m "Nombre equivocado de alumno"
 ```
 
