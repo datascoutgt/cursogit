@@ -72,9 +72,9 @@ Aquí tienes una guía detallada para lo que cada integrante del grupo debe escr
  
 2. **Edición y Commit**: Escribir la sección asignada y realizar un commit.
    ```bash
-vim rfc_dashboard_rhh.md
-git add rfc_dashboard_rhh.md
-   git commit -m "Añadir sección de Resumen al RFC de Dashboard para RHH"
+    vim rfc_dashboard_rhh.md
+    git add rfc_dashboard_rhh.md
+    git commit -m "Añadir sección de Resumen al RFC de Dashboard para RHH"
    ```
  
 3. **Fusión de Ramas**: Después de completar su sección, cada miembro fusionará su rama con la rama principal.

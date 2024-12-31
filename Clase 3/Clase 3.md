@@ -17,7 +17,7 @@ main (rama principal) ────●──────●───────�
                               feature1 ─●────●───
 ```
 
----
+---   
 
 ## **2. Crear y Cambiar a una Nueva Rama**
 Para crear y cambiar a una nueva rama:
